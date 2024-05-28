@@ -1,3 +1,3 @@
 # Demo
 
-Last updated: {{ current_date_time }}
+Last updated: 09/27/21 14:30
