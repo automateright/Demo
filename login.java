@@ -23,6 +23,10 @@ public class LoginTest {
             usernameField.sendKeys("testuser");
             passwordField.sendKeys("testpassword");
 
+            // Find the subscribe checkbox and assert its initial state
+            WebElement subscribeCheckbox = driver.findElement(By.id("subscribe"));
+            assert subscribeCheckbox.isSelected() == true;
+
             // Find the login button and click on it
             WebElement loginButton = driver.findElement(By.id("loginButton"));
             loginButton.click();
